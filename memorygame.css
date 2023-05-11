@@ -1,0 +1,41 @@
+body{
+    background-color: #FBEF5C;
+}
+
+#start-btn:hover{
+    cursor: pointer;
+}
+
+#restart-btn:hover{
+    cursor: pointer;
+}
+
+#title{
+    color: #A35CF8;
+    font-family: Helvetica;
+    font-size: 6em;
+    perspective: 800px;
+}
+
+#title > p{
+    transform: rotateX(45deg);
+    line-height: 0.75;
+    text-align: center;
+    color: #511A84;
+}
+
+#game{
+    display: grid;
+    margin: 0 auto;
+    width: 50%;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+}
+
+#game div{
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 100%;
+    height: 200px;
+}
